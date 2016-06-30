@@ -20,6 +20,3 @@ sudo -u awilczek wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools
 
 sudo -u awilczek wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.2/install.sh | sudo -u awilczek zsh
 
-
-sudo -u awilczek echo "export NVM_DIR=\"/home/awilczek/.nvm\" 
-[ -s \"$NVM_DIR/nvm.sh\" ] && . \"$NVM_DIR/nvm.sh\"" >> /home/awilczek/.zshrc
