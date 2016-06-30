@@ -13,7 +13,7 @@ apt-get install -y git-core git zsh build-essential python python-dev python-pip
 apt-add-repository ppa:webupd8team/java
 apt-get update
 apt-get install oracle-java8-installer
-apt-get install oracle-java8-set-defaultna
+apt-get install oracle-java8-set-default
 
 
 sudo -u awilczek wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sudo -u awilczek zsh
